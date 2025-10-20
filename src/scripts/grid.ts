@@ -44,7 +44,7 @@ export default class Grid {
 	};
 
 	public isInBounds = (position: Position): boolean => {
-		return position.x >= 0 && position.x < this.size && position.y >= 0 && position.y < this.size;
+		return position.x >= 0 && position.x < this.size && position.y >= 0 && position.y < (this.size - 1);
 	};
 
 	private build = (): void => {
