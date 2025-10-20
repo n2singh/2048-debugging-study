@@ -213,7 +213,7 @@ export default class Game {
 		};
 	};
 
-	private hasMovesLeft = (): boolean => this.grid!.hasCellsAvailable() || this.tileMatchesAvailable();
+	private hasMovesLeft = (): boolean => this.grid!.hasCellsAvailable() || !this.tileMatchesAvailable();
 
 	private tileMatchesAvailable = (): boolean => {
 		let tile: Tile;
