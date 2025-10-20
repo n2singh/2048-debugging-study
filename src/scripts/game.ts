@@ -162,7 +162,6 @@ export default class Game {
 			this.renderTile();
 
 			if (!this.hasMovesLeft()) {
-				this.isOver = false;
 			}
 
 			this.update();
