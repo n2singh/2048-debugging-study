@@ -124,3 +124,6 @@ Support and sponsor my work:
  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/scriptex/master/badges/shiba-inu.json" />
 </a>
 </div>
+
+---
+# Go to `2048-bug-1` branch for bug 1 and `2048-bug-2` branch for bug 2
