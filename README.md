@@ -129,6 +129,19 @@ Support and sponsor my work:
 # Bug 2
 ---
 ## How to Run The Code
+- git clone this repository using `git clone https://github.com/n2singh/2048-debugging-study.git`
+- open in VSCode
+- in the terminal switch to bug 1's branch using `git checkout 2048-bug-1`
+- run the following commands:
+  `nvm install 22`
+
+  `nvm use 22`
+
+  `npm install`
+
+  `npm start`
+
+- there should be a localhost link, click that to view the working project
 
 ---
 ## Directions
@@ -140,10 +153,5 @@ Support and sponsor my work:
 
 ---
 ## Intended Behavior
----
 
 A tile should be able to slide all the way to the edge in the swipe direction and merge with an equal-valued neighbor if they collide, including at the last row/column. Swiping right should allow merges on the far-right column, and swiping down should allow merges on the bottom row, exactly like anywhere else on the board. (i.e. anthing in the bottow row does not merge or move although it is supposed to)
-
----
-## Hints
----
