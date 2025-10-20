@@ -162,7 +162,7 @@ export default class Game {
 			this.renderTile();
 
 			if (!this.hasMovesLeft()) {
-				this.isOver = true;
+				this.isOver = false;
 			}
 
 			this.update();
@@ -213,7 +213,7 @@ export default class Game {
 		};
 	};
 
-	private hasMovesLeft = (): boolean => this.grid!.hasCellsAvailable() || !this.tileMatchesAvailable();
+	private hasMovesLeft = (): boolean => this.grid!.hasCellsAvailable() || this.tileMatchesAvailable();
 
 	private tileMatchesAvailable = (): boolean => {
 		let tile: Tile;
