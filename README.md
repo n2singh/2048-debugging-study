@@ -129,6 +129,19 @@ Support and sponsor my work:
 # Bug 1
 ---
 ## How to Run The Code
+- git clone this repository using `git clone https://github.com/n2singh/2048-debugging-study.git`
+- open in VSCode
+- in the terminal switch to bug 1's branch using `git checkout 2048-bug-1`
+- run the following commands:
+  `nvm install 22`
+
+  `nvm use 22`
+
+  `npm install`
+
+  `npm start`
+
+- there should be a localhost link, click that to view the working project
 
 ---
 ## Directions
@@ -141,7 +154,6 @@ Support and sponsor my work:
 
 ---
 ## Intended Behavior
----
 
 When the board has no empty cells and no adjacent tiles with the same value (i.e., no legal moves remain), the game should immediately enter the Game Over state. The UI should show the “Game Over” overlay/message and block further moves until the player presses the "Try Again" button.
 
