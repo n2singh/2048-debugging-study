@@ -141,7 +141,10 @@ Support and sponsor my work:
 
 ---
 ## Intended Behavior
+---
+
 A tile should be able to slide all the way to the edge in the swipe direction and merge with an equal-valued neighbor if they collide, including at the last row/column. Swiping right should allow merges on the far-right column, and swiping down should allow merges on the bottom row, exactly like anywhere else on the board. (i.e. anthing in the bottow row does not merge or move although it is supposed to)
+
 ---
 ## Hints
-
+---
