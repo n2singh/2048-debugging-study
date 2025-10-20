@@ -124,3 +124,28 @@ Support and sponsor my work:
  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/scriptex/master/badges/shiba-inu.json" />
 </a>
 </div>
+
+---
+# Bug 1
+---
+## How to Run The Code
+
+---
+## Directions
+- Inspect the issues (image provided below of what this looks like)
+- Document yourself every 5-10 mins with the strategies used and steps taken to debug the errors shown
+- Give yourself no more than 45 minutes to complete this task
+- If you do not solve the bugs, no problem! Still, document everything and stop when the time is up
+- Good luck :)
+
+
+---
+## Intended Behavior
+---
+
+When the board has no empty cells and no adjacent tiles with the same value (i.e., no legal moves remain), the game should immediately enter the Game Over state. The UI should show the “Game Over” overlay/message and block further moves until the player presses the "Try Again" button.
+
+---
+## Hints
+---
+
