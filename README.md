@@ -158,6 +158,4 @@ Support and sponsor my work:
 When the board has no empty cells and no adjacent tiles with the same value (i.e., no legal moves remain), the game should immediately enter the Game Over state. The UI should show the “Game Over” overlay/message and block further moves until the player presses the "Try Again" button.
 
 ---
-## Hints
----
 
