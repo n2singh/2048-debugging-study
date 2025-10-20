@@ -132,7 +132,6 @@ Support and sponsor my work:
 
 ---
 ## Directions
-- Inspect the issues (image provided below of what this looks like)
 - Document yourself every 5-10 mins with the strategies used and steps taken to debug the errors shown
 - Give yourself no more than 45 minutes to complete this task
 - If you do not solve the bugs, no problem! Still, document everything and stop when the time is up
